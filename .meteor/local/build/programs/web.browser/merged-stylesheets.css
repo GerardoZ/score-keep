@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #f2f2f2;
+  color: #555555;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+}
+
+input,
+buton,
+select {
+  font-size: 1.3rem;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 2.4rem;
+}
+
+.title-bar {
+  background: #26B511;
+  color: white;
+}
+
+.title-bar__subtitle {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 50rem;
+  padding: 1.3rem;
+}
+
+.item {
+  background: white;
+  border: 1px solid #E8E8E8;
+  margin-bottom: 1.3rem;
+  padding: 1.3rem;
+}
+
+.item__message {
+  font-size: 1.3rem;
+  font-style: italic;
+  font-weight: 400;
+  text-align: center;
+}
+
+.item--position-1 {
+  background: #e4ede0;
+  border-color: #5c824c;
+}
+
+.item--position-2 {
+  background: #dfe7ed;
+  border-color: #537894;
+}
+
+.item--position-3 {
+  background: #eddfdf;
+  border-color: #945353;
+}
+
+.button {
+  background: transparent;
+  border: 1px solid #555555;
+  color: #555555;
+  cursor: pointer;
+  font-weight: 600;
+  line-height: 1;
+  margin-left: 1.3rem;
+  outline: none;
+  padding: 1.3rem;
+  transition: background .4s ease, transform .4s ease;
+}
+
+.button:hover,
+.button:focus {
+  background: #E8E8E8;
+}
+
+.button:active {
+  background: #CCCCCC;
+  transform: scale(1.1);
+}
+
+.button--round {
+  border-radius: 50%;
+  height: 4rem;
+  width: 4rem;
+}
+
+.player {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.player__name {
+  font-weight: 300;
+  font-size: 1.8rem;
+  overflow: auto;
+}
+
+.player__stats {
+  font-size: 1.3rem;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.player__actions {
+  flex-shrink: 0;
+}
+
+.form {
+  display: flex;
+}
+
+.form__input {
+  border: 1px solid #E8E8E8;
+  flex-grow: 1;
+  padding: 0 1.3rem;
+}
